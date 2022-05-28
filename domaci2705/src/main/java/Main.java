@@ -31,5 +31,7 @@ public class Main {
         }else{
             System.out.println("Not nice!");
         }
+
+        driver.close();
     }
 }
